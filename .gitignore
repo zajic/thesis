@@ -1,0 +1,11 @@
+.hg
+.idea
+wordnet
+corpora
+WNAffect_modules
+pickle_files
+__pycache__
+logs
+scrap.txt
+README
+.hgignore
