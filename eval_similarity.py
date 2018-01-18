@@ -4,7 +4,7 @@
 ######################
 
 import numpy
-import scipy
+from scipy.spatial.distance import cosine
 import pickle
 
 class Cosine_Similarity:
@@ -51,7 +51,7 @@ class Cosine_Similarity:
         term_vector0 = numpy.mat(sigma_inv) * numpy.mat(self.VT) * t0
         term_vector1 = numpy.mat(sigma_inv) * numpy.mat(self.VT) * t1
 
-        distance = scipy.spatial.distance.cosine(term_vector0,term_vector1)
+        distance = cosine(term_vector0,term_vector1)
 
         return distance
 
