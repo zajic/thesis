@@ -1,4 +1,4 @@
-Note: Event registry API cannot be accessed from University of St Andrews network as it is considered a phishing website, for some reason!
+Note: Event registry API cannot be accessed from University of St Andrews network as it is considered a phishing website.
 
 ######################
 #
@@ -99,7 +99,7 @@ Add the following to the top of the code
 
 If that still does not work, add w.encode('utf-8') for every variable w (word) in bnc_lsa.py when iterating over word in the BNC.
 
-Alternatively, run the code from Pycharm. There are no problems in Pycharm with unicode at all.
+Alternatively, run the code with Python 3.
 
 2) Event registry cannot be accessed, no results are returned for my queries:
 You need to connect outside of St Andrews University network.
